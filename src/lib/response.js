@@ -1,5 +1,5 @@
-import { Enum } from "../config/Enum"
-import CustomError from "./error"
+import { Enum } from "../config/Enum.js"
+import CustomError from "./error.js"
 
 class Response {
     constructor(){
@@ -30,3 +30,4 @@ class Response {
         }
     }
 }
+export default  Response
